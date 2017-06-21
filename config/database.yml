@@ -1,0 +1,15 @@
+development:
+  adapter: mysql2
+  database: taskmanager_dev
+  password: root
+  username: root
+  encoding: utf8
+  collation: utf8_general_ci
+  
+test:
+  adapter: mysql2
+  database: taskmanager_test
+  password: root
+  username: root
+  encoding: utf8
+  collation: utf8_general_ci
